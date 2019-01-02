@@ -61,22 +61,27 @@
 .HomePageName {
     text-align: center;
     font-size: 15px;
+    line-height:1.5em;
 }
 
 .HomePageText {
     text-align: center;
     font-size: 10px;
-    line-height:0.3em;
+    line-height:0.5em;
 }
 
 .ScrollingSingleImage {
-    width: 200px;
-    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 52%;
+    width: 300px;
+    height: 300px;
 }
 
 .ScrollingImage {
-    position: absolute;
-    left: 43%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 52%;
     width: 300px;
     height: 300px;
 

@@ -10,11 +10,12 @@ class HomePage extends React.Component{
        // const img = '../';
         return (
             <React.Fragment>
-                <div style={{ height: '300px' }}>
-                    <h3 className="HomePageName">Ivy Feng</h3>
+                <div style={{ height: '450px' }}>
+                    <h2 className="HomePageName">Hi! I am Ivy</h2>
                     <p className="HomePageText">- Student at UNSW -</p>
                     <p className="HomePageText">- Avid Traveller -</p>
                     <p className="HomePageText">- Developer -</p>
+                    <br />
                     <div className="ScrollingImage">
                         <ScrollingPhoto />
                     </div>
