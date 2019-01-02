@@ -1,0 +1,85 @@
+.Content {
+    font-size: 10px;
+    margin:10px;
+}
+
+.Tab {
+    display: flex;
+    flex-direction: row;   
+}
+
+.TabItem {
+    font-size:10px;
+    margin:10px;
+}
+
+.TabChoose {
+    font-size:12px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 1px;
+    margin:10px;
+}
+
+.Header {
+    background-color: #d3d3d3;
+    margin:10px;
+}
+
+.ContentBox {
+    font-size: 10px;
+    border: 1px solid grey;
+    border-radius: 2px;
+}
+
+.MainNav {
+    display: flex;
+    flex-direction: row;   
+}
+
+.MainNavTab {
+    margin: 10px;
+}
+
+.MainNavTabSelected {
+    border-bottom: 2px solid grey;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.WelcomePageNav {
+    margin: 10px;
+}
+
+.imageStyle {
+    width: 30px;
+    height: 30px;
+    margin:5px;
+}
+
+.HomePageName {
+    text-align: center;
+    font-size: 15px;
+}
+
+.HomePageText {
+    text-align: center;
+    font-size: 10px;
+    line-height:0.3em;
+}
+
+.ScrollingSingleImage {
+    width: 200px;
+    height: 200px;
+}
+
+.ScrollingImage {
+    position: absolute;
+    left: 43%;
+    width: 300px;
+    height: 300px;
+
+}
+
+
