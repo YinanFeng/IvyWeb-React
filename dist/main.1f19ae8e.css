@@ -129,15 +129,53 @@
     flex-direction: row;   
 }
 
-.CoverPageTitle{
+.CoverPageTitle {
+    position: absolute;
+    top:30%;
+    left:25%;
     font-size: 100px;
     font-weight: bold;
+    line-height:1em;
 }
 
-.CoverPageTag{
-    font-size: 10px;
+.CoverPageTag {
+    font-size: 12px;
     font-weight: bold;
     color: black;
+    position: absolute;
+    top: 41%;
+    left: 52%; 
+
+
+}
+
+.exploreButton {
+    text-align: center;
+    color:white;
+    font-weight: normal;
+}
+
+.exploreButtonDiv {
+    width: 150px;
+    height: 30px;
+    background-color: red;
+    border-radius: 25px;
+    position: absolute;
+    top: 41%;
+    left: 20.5%; 
+}
+
+.linkTag {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:200px;
+}
+
+.HomePageLinkTag {
+    position: absolute;
+    top: 65%;
+    left: 40%;
 }/*!
  * 
  * antd v3.11.6
