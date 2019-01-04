@@ -1,0 +1,9 @@
+{
+    "extends": ["standard", "standard-react"],
+    "parser": "babel-eslint",
+    "rules": {
+        "indent": ["error", 2],
+        "no-extra-semi": "error",
+        "react/prop-types": 0
+    }
+}

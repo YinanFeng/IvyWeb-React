@@ -1,13 +1,13 @@
-import { connect } from 'react-redux';
-import ResumePage from '../components/resumePage/ResumePage';
-import { chooseTab } from '../reducer/TabReducer';
+import { connect } from 'react-redux'
+import ResumePage from '../components/resumePage/ResumePage'
+import { chooseTab } from '../reducer/TabReducer'
 
 const mapStateToProps = (state) => ({
-    currentTab: state.TabSelected,
+  currentTab: state.TabSelected
 })
 
 const mapDispatchToProps = dispatch => ({
-    onTabClicked: id => dispatch(chooseTab(id)),
-});
+  onTabClicked: id => dispatch(chooseTab(id))
+})
 
-export default connect(mapStateToProps, mapDispatchToProps)(ResumePage);
+export default connect(mapStateToProps, mapDispatchToProps)(ResumePage)
