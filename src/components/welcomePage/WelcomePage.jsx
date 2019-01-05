@@ -3,7 +3,6 @@ import ResumeContainer from '../../container/ResumeContainer'
 // import HomePage from '../homePage/HomePage'
 import HomePageContainer from '../../container/HomePageContainer'
 import CoverPageContainer from '../../container/CoverPageContainer'
-import LinkTags from '../linkTags/LinkTags'
 
 class WelcomePage extends React.Component {
   render () {
@@ -24,8 +23,6 @@ class WelcomePage extends React.Component {
         {this.props.currentNav === 'BIO' ? <HomePageContainer /> : null}
         {this.props.currentNav === 'RESUME' ? <ResumeContainer /> : null}
         {this.props.currentNav === 'HOME' ? <CoverPageContainer /> : null}
-
-        {this.props.currentNav !== 'HOME' ? <LinkTags /> : null}
       </React.Fragment>
     )
   }
