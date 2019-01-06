@@ -3,7 +3,7 @@ import data from '../homePagePhoto/data'
 
 const initialState = {
   NavSelect: 'HOME',
-  TabSelected: 1,
+  TabSelected: 4,
   images: data,
   currentImage: '../homePagePhoto/Image2.jpg'
 }

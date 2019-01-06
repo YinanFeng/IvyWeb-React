@@ -5,28 +5,38 @@
 
 .Tab {
     background-color: grey;
-    border-radius: 2px;
-    margin-left: 1%;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    border-radius: 0.5px;
+
     height: 100%;
-    width: 10%;
+    width: 2vw;
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .TabItem {
-    font-size:10px;
-    margin:10px;
+    font-size:0.6vw;
+    transform: rotate(270deg);
+    margin-top:1vw;
+    margin-bottom:1vw;
+    margin-left:0.1vw;
+    width: 2vw;
+    font-weight: bolder;
 }
 
 .TabChoose {
-    font-size:12px;
-    border-bottom: 2px solid black;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-    border-radius: 1px;
-    margin:10px;
+    font-size:0.6vw;
+    transform: rotate(270deg);
+    border-bottom: 0.1vw solid black;
+    margin-top:1vw;
+    margin-bottom:1vw;
+    margin-left:0.1vw;
+    width: 2vw;
+    font-weight: bolder;
+}
+
+.tabDiv{
+    white-space: nowrap;
 }
 
 .Header {
@@ -194,23 +204,53 @@
     /* height: 6vw; */
 }
 
-.ResumePageBackGround {
-    display: flex;
-    flex-direction: row;
-    background-color: rgba(232, 232, 232, 1);
+/* .ResumePageBackGround { */
+    /* display: flex;
+    flex-direction: row; */
+    /* background-color: rgba(232, 232, 232, 1);
+    height: 50vw; */
+/* } */
+
+.resumeProfile {
+    height: 17vw;
+    margin-bottom: 10vw;
 }
 
-.TabBarHeader {
-    margin-top: 3px;
+.resumeHeaderText {
+    width: 26vw;
+    height: 9vw;
+    background-color: #f4f4f4;
+    border-radius: 36vw;
+    position: relative;
+    top: -6vw;
+    left: 35vw;
+}
+
+.resumeText{
+    position: relative;
+    left:10vw;
+    top:1.6vw;
+}
+
+.resumeHeaderImage {
+    position: relative;
+    top: 5vw;
+    left: 30vw; 
     display: flex;
     flex-direction: row;
+    z-index: 1;
 }
 
 .resumeImage {
-    margin-left: 3.5px;
-    width:40px;
-    height:40px;
-    border-radius: 50px;
+    width:14vw;
+    height:14vw;
+    border-radius: 100vw;
+}
+
+.resumePageLinkTag {
+    position: relative;
+    left: -3.5vw;
+    top: 4vw;
 }
 
 .ScrollingImageText {
@@ -229,3 +269,38 @@
     height: 2.2vw;
     margin: 0.8vw;
 }
+
+.resumeLinkTag {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.ResumePageImageStyle {
+    width: 1.8vw;
+    height: 1.8vw;
+    /* margin: 0.9vw; */
+}
+
+.ResumeProfile {
+    background-color: #f4f4f4;
+    height: 13vw;
+}
+
+.ResumeEducation {
+    background-color: white;
+    height: 20vw;
+}
+
+.ResumeExperience {
+    background-color: #f4f4f4;
+    height: 36vw;
+}
+
+.ResumeExtracurricularInvolvements {
+    background-color: white;
+    height: 30vw;
+}
+
+
