@@ -1,7 +1,7 @@
 import React from 'react'
 import ResumeContainer from '../../container/ResumeContainer'
 // import HomePage from '../homePage/HomePage'
-import HomePageContainer from '../../container/HomePageContainer'
+import HomePage from '../homePage/HomePage'
 import CoverPageContainer from '../../container/CoverPageContainer'
 
 class WelcomePage extends React.Component {
@@ -20,7 +20,7 @@ class WelcomePage extends React.Component {
             <hr />
           </div>
           : null}
-        {this.props.currentNav === 'BIO' ? <HomePageContainer /> : null}
+        {this.props.currentNav === 'BIO' ? <HomePage /> : null}
         {this.props.currentNav === 'RESUME' ? <ResumeContainer /> : null}
         {this.props.currentNav === 'HOME' ? <CoverPageContainer /> : null}
       </React.Fragment>

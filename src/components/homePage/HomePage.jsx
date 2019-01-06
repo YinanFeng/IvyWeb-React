@@ -4,7 +4,6 @@ import HomePageLinkTags from '../homePageLinkTag/HomePageLinkTags'
 
 class HomePage extends React.Component {
   render () {
-    console.log(this.props.images[0].src)
     // const img = '../';
     return (
       <React.Fragment>

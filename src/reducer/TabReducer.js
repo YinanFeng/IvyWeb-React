@@ -1,11 +1,8 @@
 import { merge } from 'ramda'
-import data from '../homePagePhoto/data'
 
 const initialState = {
   NavSelect: 'HOME',
-  TabSelected: 4,
-  images: data,
-  currentImage: '../homePagePhoto/Image2.jpg'
+  TabSelected: 4
 }
 
 export default (state = initialState, action) => {
