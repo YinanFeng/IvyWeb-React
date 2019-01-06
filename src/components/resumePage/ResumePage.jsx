@@ -81,7 +81,7 @@ class ResumePage extends React.Component {
           <div id='Extracurricular Involvements' className='ResumeExtracurricularInvolvements'>
             <div style={{ position: 'relative', top: '2vw' }}>
               <h3 style={{ position: 'relative', left: '40vw', fontSize: '1.7vw' }}>EXTRACURRICULAR INVOLVEMENTS</h3>
-              <hr style={{ width: '3vw', position: 'relative', top: '-0.7vw', left: '-8.3vw', color: 'black', border: '1px solid black' }} /> 
+              <hr style={{ width: '3vw', position: 'relative', top: '-0.7vw', left: '-8.3vw', color: 'black', border: '1px solid black' }} />
               <div style={{ position: 'relative', left: '10vw', top: '1vw', marginRight: '11vw' }}>
                 <p style={{ fontSize: '1.25vw' }}>Project Officer - Skill Development Program UNSW</p>
                 <p style={{ fontSize: '1.25vw' }}>External Relations Subcommittee - UNSW Woman in Technology</p>
