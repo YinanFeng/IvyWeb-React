@@ -174,42 +174,28 @@
     color:white;
     font-weight: normal;
     font-size: 1.3vw;
-}
-
-.exploreButtonDiv {
-    width: 11.5vw;
-    height: 2vw;
     background-color: red;
     border-radius: 25px;
+    width: 12vw;
+    height: 2.7vw;
     position: relative;
-    top: -9.5%;
-    left: 20%; 
+    left: 19.5%;
+    top: -5vw;
 }
 
 .linkTag {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 200px;
+    width: 30vw;
 }
 
 .HomePageLinkTag {
-    width: 200px;
-    
     position:relative;
     top: 13%;
-    left: 35%;
-    /* left: 42%; */
-    /* width: 26vw; */
-    /* height: 6vw; */
+    left: 33%;
 }
 
-/* .ResumePageBackGround { */
-    /* display: flex;
-    flex-direction: row; */
-    /* background-color: rgba(232, 232, 232, 1);
-    height: 50vw; */
-/* } */
 
 .resumeProfile {
     height: 17vw;

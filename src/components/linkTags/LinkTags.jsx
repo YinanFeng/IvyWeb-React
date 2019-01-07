@@ -9,7 +9,6 @@ class LinkTags extends React.Component {
           <a href='https://www.linkedin.com/in/yinan-feng/'><img className='imageStyle' src={require('./LinkedinLogo.png')} alt='image' /></a>
           <a href='mailto:z5167277@ad.unsw.edu.au'><img className='imageStyle' src={require('./MailLogo.png')} alt='image' /></a>
         </div>
-        {/* <hr/> */}
       </React.Fragment>
     )
   }
